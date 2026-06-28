@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,viewport-fit=cover">
+<title>Who We Help — Langford Housing CIC</title>
+<meta name="description" content="Langford Housing CIC — safe, supported accommodation and genuine human care for adults rebuilding their lives.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<style>
+.tags{display:flex;flex-wrap:wrap;gap:9px;margin-top:26px;}
+.tag{background:var(--white);border:1px solid var(--bdr);border-radius:100px;padding:9px 17px;font-size:14px;color:var(--ink);display:flex;align-items:center;gap:8px;}
+.tag-dot{width:6px;height:6px;border-radius:50%;background:var(--sage);flex-shrink:0;}
+.who-img{border-radius:16px;overflow:hidden;aspect-ratio:16/10;margin-bottom:32px;}
+.who-img img{width:100%;height:100%;object-fit:cover;}
+.access-row{display:flex;align-items:flex-start;gap:16px;padding:20px 0;border-bottom:1px solid var(--bdr);}
+.access-row:last-child{border-bottom:none;}
+.access-ico{width:40px;height:40px;border-radius:10px;background:var(--tl);display:flex;align-items:center;justify-content:center;flex-shrink:0;}
+.access-title{font-family:'DM Sans',sans-serif;font-weight:600;font-size:16px;color:var(--ink);margin-bottom:5px;}
+.access-desc{font-size:14.5px;color:var(--mid);line-height:1.65;}
+@media(min-width:1060px){.who-inner{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:start;}.who-img{margin-bottom:0;}}
+</style>
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <a href="index.html" class="logo">
+    <svg width="36" height="36" viewBox="0 0 38 38" fill="none"><path d="M4 18L19 6L34 18" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M7 18V31L31 31V18" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M14 31V23.5Q14 19 19 19Q24 19 24 23.5V31" stroke="#C98A1A" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    <span><span class="logo-name">Langford Housing</span><span class="logo-sub">Community Interest Company</span></span>
+  </a>
+  <div class="nav-right">
+    <nav class="nav-links" aria-label="Desktop navigation">
+      <a href="services.html" class="nav-link">Services</a>
+<a href="who-we-help.html" class="nav-link active-page">Who We Help</a>
+<a href="landlords.html" class="nav-link">Landlords</a>
+<a href="about.html" class="nav-link">About</a>
+    </nav>
+    <a href="contact.html" class="nav-cta-d">Get in Touch</a>
+    <button class="hamburger-btn" id="hbg" aria-label="Open menu" aria-expanded="false">
+      <svg width="14" height="10" viewBox="0 0 14 10" fill="none"><rect width="14" height="1.5" rx=".75" fill="currentColor"/><rect y="4.25" width="14" height="1.5" rx=".75" fill="currentColor"/><rect y="8.5" width="14" height="1.5" rx=".75" fill="currentColor"/></svg>
+      Menu
+    </button>
+  </div>
+</nav>
+
+<div class="drawer" id="drawer" aria-hidden="true" role="dialog" aria-modal="true">
+  <div class="drawer-head">
+    <a href="index.html" class="logo"><svg width="36" height="36" viewBox="0 0 38 38" fill="none"><path d="M4 18L19 6L34 18" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M7 18V31L31 31V18" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M14 31V23.5Q14 19 19 19Q24 19 24 23.5V31" stroke="#C98A1A" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg><span><span class="logo-name">Langford Housing</span></span></a>
+    <button class="drawer-close" id="dcl" aria-label="Close">&times;</button>
+  </div>
+  <div class="drawer-links">
+    <a href="index.html" class="drawer-link dl">Home <em>→</em></a>
+<a href="services.html" class="drawer-link dl">Services <em>→</em></a>
+<a href="who-we-help.html" class="drawer-link dl active-page">Who We Help <em>→</em></a>
+<a href="landlords.html" class="drawer-link dl">Landlords <em>→</em></a>
+<a href="referrals.html" class="drawer-link dl">Referrals <em>→</em></a>
+<a href="about.html" class="drawer-link dl">About <em>→</em></a>
+<a href="contact.html" class="drawer-link dl">Contact <em>→</em></a>
+  </div>
+  <a href="contact.html" class="drawer-cta dl">Get in Touch</a>
+</div>
+
+
+<div class="page-hero">
+  <div class="page-hero-glow"></div>
+  <p class="page-hero-eyebrow fade">Who We Help</p>
+  <h1 class="fade d1">Whatever brought<br>you here,<br><em>you're welcome.</em></h1>
+  <p class="page-hero-lead fade d2">We support adults from all walks of life. No judgment about how you got here — only focus on where you're going next.</p>
+</div>
+<section class="sec sec-cream">
+  <div class="who-inner">
+    <div class="who-img fade"><img src="assets/images/care.jpg" alt="Support worker with resident" loading="lazy"></div>
+    <div>
+      <p class="eyebrow fade d1">Who we support</p>
+      <h2 class="serif fade d1">Adults aged 18+<br><em>rebuilding their lives.</em></h2>
+      <p class="lead fade d2">We don't define people by their circumstances. We see where they want to go and work alongside them to get there.</p>
+      <div class="tags fade d3">
+        <span class="tag"><span class="tag-dot"></span>People experiencing homelessness</span>
+        <span class="tag"><span class="tag-dot"></span>Mental health needs</span>
+        <span class="tag"><span class="tag-dot"></span>Addiction recovery</span>
+        <span class="tag"><span class="tag-dot"></span>Care leavers &amp; young adults</span>
+        <span class="tag"><span class="tag-dot"></span>Ex-offenders &amp; prison leavers</span>
+        <span class="tag"><span class="tag-dot"></span>Domestic abuse survivors</span>
+        <span class="tag"><span class="tag-dot"></span>Learning disabilities</span>
+        <span class="tag"><span class="tag-dot"></span>Refugees &amp; asylum seekers</span>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="sec sec-white">
+  <p class="eyebrow fade">How to access our services</p>
+  <h2 class="serif fade d1">Three ways in.<br><em>One outcome.</em></h2>
+  <div style="margin-top:32px;">
+    <div class="access-row fade d1"><div class="access-ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0A5C72" stroke-width="2" stroke-linecap="round"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8H16M8 12H16M8 16H12"/></svg></div><div><div class="access-title">Agency Referral</div><div class="access-desc">Councils, NHS trusts, homelessness charities, and probation services can refer directly. We acknowledge every referral within 48 hours.</div></div></div>
+    <div class="access-row fade d2"><div class="access-ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0A5C72" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="8" r="4"/><path d="M4 21Q4 15 12 15Q20 15 20 21"/></svg></div><div><div class="access-title">Self-Referral</div><div class="access-desc">If you're looking for housing yourself, you can get in touch directly. You don't need to go through an agency — just reach out and we'll talk it through.</div></div></div>
+    <div class="access-row fade d3"><div class="access-ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0A5C72" stroke-width="2" stroke-linecap="round"><path d="M22 16.9V20a2 2 0 0 1-2.2 2A19 19 0 0 1 3 5.2 2 2 0 0 1 5 3h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L9 11a16 16 0 0 0 4 4l1.4-1.2a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7A2 2 0 0 1 22 16.9Z"/></svg></div><div><div class="access-title">Call Us Direct</div><div class="access-desc">Sometimes you just need to speak to someone. Call us directly and a real person will answer. No automated systems, no hold music.</div></div></div>
+  </div>
+</section>
+<section class="testimonial"><p class="test-quote fade">"I'd tried three other places before Langford. This time felt different from the first call. Someone actually listened."</p><div class="test-auth fade d1"><div class="test-av">&#128076;</div><div><div class="test-name">A former resident</div><div class="test-role">Now living independently</div></div></div></section>
+<section class="cta-band"><h2 class="fade">Not sure if we can help?</h2><p class="fade d1">Get in touch and tell us your situation. We'll be honest about whether we're the right fit — and if not, we'll help you find someone who is.</p><a href="contact.html" class="btn btn-teal fade d2">Talk to Us &rarr;</a></section>
+
+
+<footer class="footer">
+  <div class="footer-brand">
+    <a href="index.html" class="logo">
+      <svg width="32" height="32" viewBox="0 0 38 38" fill="none"><path d="M4 18L19 6L34 18" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M7 18V31L31 31V18" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M14 31V23.5Q14 19 19 19Q24 19 24 23.5V31" stroke="#C98A1A" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span><span class="logo-name">Langford Housing</span><span class="logo-sub">Community Interest Company</span></span>
+    </a>
+    <p class="footer-about">Safe, supported accommodation and genuine human care for adults rebuilding their lives across the UK. Not just a roof — a foundation.</p>
+    <div class="social">
+      <a href="#" aria-label="Facebook"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.4v7A10 10 0 0 0 22 12Z"/></svg></a>
+      <a href="#" aria-label="LinkedIn"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2zM8.3 18.3H5.7V9.8h2.6v8.5zM7 8.6a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm11.3 9.7h-2.6v-4.1c0-1 0-2.2-1.4-2.2s-1.6 1.1-1.6 2.2v4.1h-2.6V9.8h2.5v1.1h.1a2.7 2.7 0 0 1 2.5-1.4c2.6 0 3.1 1.7 3.1 4v4.8z"/></svg></a>
+      <a href="#" aria-label="Instagram"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+    </div>
+  </div>
+  <div class="footer-cols">
+    <div class="footer-col"><h4>Services</h4><a href="services.html">Safe Accommodation</a><a href="services.html">Support Workers</a><a href="services.html">Benefits Help</a><a href="services.html">24/7 Cover</a></div>
+    <div class="footer-col"><h4>For Agencies</h4><a href="referrals.html">Make a Referral</a><a href="referrals.html">How It Works</a><a href="contact.html">Contact Us</a></div>
+    <div class="footer-col"><h4>For Landlords</h4><a href="landlords.html">Guaranteed Rent</a><a href="landlords.html">Commercial Leases</a><a href="contact.html">Free Assessment</a></div>
+    <div class="footer-col"><h4>Company</h4><a href="about.html">About Us</a><a href="who-we-help.html">Who We Help</a><a href="contact.html">Contact</a></div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2026 Langford Housing CIC. Registered Community Interest Company. All rights reserved.</p>
+    <p>Designed &amp; built by <strong style="color:rgba(255,255,255,.45);">The Dream State</strong></p>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

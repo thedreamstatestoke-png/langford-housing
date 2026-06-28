@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,viewport-fit=cover">
+<title>Landlords — Langford Housing CIC</title>
+<meta name="description" content="Langford Housing CIC — safe, supported accommodation and genuine human care for adults rebuilding their lives.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<style>
+.ll-sec{background:var(--navy);padding:var(--sec) var(--pad);position:relative;overflow:hidden;}
+.ll-glow{position:absolute;top:-80px;right:-80px;width:380px;height:380px;border-radius:50%;background:radial-gradient(circle,rgba(201,138,26,.14) 0%,transparent 65%);pointer-events:none;}
+.ll-lead{font-size:17px;color:rgba(255,255,255,.7);line-height:1.78;margin-bottom:36px;}
+.ll-lead strong{color:#fff;font-weight:500;}
+.lease-card{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:14px;padding:28px 24px;margin-bottom:32px;}
+.lease-tag{font-size:11px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--amber2);margin-bottom:14px;}
+.lease-num{font-family:'Cormorant',serif;font-weight:700;font-size:60px;color:#fff;line-height:1;letter-spacing:-.02em;}
+.lease-unit{font-family:'Cormorant',serif;font-weight:500;font-size:22px;color:rgba(255,255,255,.45);}
+.lease-desc{font-size:14.5px;color:rgba(255,255,255,.55);margin-top:10px;line-height:1.6;}
+.ll-items{display:flex;flex-direction:column;}
+.ll-item{display:flex;align-items:center;gap:14px;padding:15px 0;border-bottom:1px solid rgba(255,255,255,.07);}
+.ll-item:last-child{border-bottom:none;}
+.ll-chk{width:24px;height:24px;border-radius:50%;background:rgba(201,138,26,.15);display:flex;align-items:center;justify-content:center;flex-shrink:0;}
+.ll-text{font-size:15.5px;color:rgba(255,255,255,.88);}
+.ll-btns{margin-top:36px;display:flex;flex-direction:column;gap:12px;}
+.faq-item{border-bottom:1px solid var(--bdr);padding:20px 0;}
+.faq-item:first-child{padding-top:0;}.faq-item:last-child{border-bottom:none;padding-bottom:0;}
+.faq-q{font-family:'DM Sans',sans-serif;font-weight:600;font-size:16px;color:var(--ink);margin-bottom:10px;}
+.faq-a{font-size:15px;color:var(--mid);line-height:1.72;}
+@media(min-width:700px){.ll-btns{flex-direction:row;}}
+</style>
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <a href="index.html" class="logo">
+    <svg width="36" height="36" viewBox="0 0 38 38" fill="none"><path d="M4 18L19 6L34 18" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M7 18V31L31 31V18" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M14 31V23.5Q14 19 19 19Q24 19 24 23.5V31" stroke="#C98A1A" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    <span><span class="logo-name">Langford Housing</span><span class="logo-sub">Community Interest Company</span></span>
+  </a>
+  <div class="nav-right">
+    <nav class="nav-links" aria-label="Desktop navigation">
+      <a href="services.html" class="nav-link">Services</a>
+<a href="who-we-help.html" class="nav-link">Who We Help</a>
+<a href="landlords.html" class="nav-link active-page">Landlords</a>
+<a href="about.html" class="nav-link">About</a>
+    </nav>
+    <a href="contact.html" class="nav-cta-d">Get in Touch</a>
+    <button class="hamburger-btn" id="hbg" aria-label="Open menu" aria-expanded="false">
+      <svg width="14" height="10" viewBox="0 0 14 10" fill="none"><rect width="14" height="1.5" rx=".75" fill="currentColor"/><rect y="4.25" width="14" height="1.5" rx=".75" fill="currentColor"/><rect y="8.5" width="14" height="1.5" rx=".75" fill="currentColor"/></svg>
+      Menu
+    </button>
+  </div>
+</nav>
+
+<div class="drawer" id="drawer" aria-hidden="true" role="dialog" aria-modal="true">
+  <div class="drawer-head">
+    <a href="index.html" class="logo"><svg width="36" height="36" viewBox="0 0 38 38" fill="none"><path d="M4 18L19 6L34 18" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M7 18V31L31 31V18" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M14 31V23.5Q14 19 19 19Q24 19 24 23.5V31" stroke="#C98A1A" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg><span><span class="logo-name">Langford Housing</span></span></a>
+    <button class="drawer-close" id="dcl" aria-label="Close">&times;</button>
+  </div>
+  <div class="drawer-links">
+    <a href="index.html" class="drawer-link dl">Home <em>→</em></a>
+<a href="services.html" class="drawer-link dl">Services <em>→</em></a>
+<a href="who-we-help.html" class="drawer-link dl">Who We Help <em>→</em></a>
+<a href="landlords.html" class="drawer-link dl active-page">Landlords <em>→</em></a>
+<a href="referrals.html" class="drawer-link dl">Referrals <em>→</em></a>
+<a href="about.html" class="drawer-link dl">About <em>→</em></a>
+<a href="contact.html" class="drawer-link dl">Contact <em>→</em></a>
+  </div>
+  <a href="contact.html" class="drawer-cta dl">Get in Touch</a>
+</div>
+
+
+<div class="page-hero">
+  <div class="page-hero-glow"></div>
+  <p class="page-hero-eyebrow fade">For Property Owners</p>
+  <h1 class="fade d1">Your property.<br>Our responsibility.<br><em>Guaranteed income.</em></h1>
+  <p class="page-hero-lead fade d2">The Renters' Rights Act has changed private letting permanently. A commercial lease with Langford Housing CIC hasn't.</p>
+</div>
+<section class="ll-sec">
+  <div class="ll-glow"></div>
+  <p class="eyebrow eyebrow-amber fade">The proposition</p>
+  <h2 class="serif serif-light fade d1" style="margin-top:14px;margin-bottom:20px;">No voids. No arrears.<br>No repairs.<br><em>Just consistent income.</em></h2>
+  <p class="ll-lead fade d2">You receive agreed rent on time, every month — <strong>whether or not the property is occupied.</strong></p>
+  <div class="lease-card fade d2">
+    <div class="lease-tag">Commercial lease term</div>
+    <div><span class="lease-num">3&ndash;5 </span><span class="lease-unit">years</span></div>
+    <div class="lease-desc">Income security you can plan around — protected under the new legislation.</div>
+  </div>
+  <div class="ll-items fade d3">
+    <div class="ll-item"><div class="ll-chk"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#C98A1A" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12L10 17L19 7"/></svg></div><span class="ll-text">Guaranteed rent, paid on time every month</span></div>
+    <div class="ll-item"><div class="ll-chk"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#C98A1A" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12L10 17L19 7"/></svg></div><span class="ll-text">Zero void periods — income never stops</span></div>
+    <div class="ll-item"><div class="ll-chk"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#C98A1A" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12L10 17L19 7"/></svg></div><span class="ll-text">No arrears, no repairs, no tenant management</span></div>
+    <div class="ll-item"><div class="ll-chk"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#C98A1A" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12L10 17L19 7"/></svg></div><span class="ll-text">Income backed by Housing Benefit</span></div>
+    <div class="ll-item"><div class="ll-chk"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#C98A1A" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12L10 17L19 7"/></svg></div><span class="ll-text">Property cared for and returned in agreed condition</span></div>
+    <div class="ll-item"><div class="ll-chk"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#C98A1A" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12L10 17L19 7"/></svg></div><span class="ll-text">CIC registered — legally accountable, transparent</span></div>
+    <div class="ll-item"><div class="ll-chk"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#C98A1A" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12L10 17L19 7"/></svg></div><span class="ll-text">Your evenings back — for good</span></div>
+  </div>
+  <div class="ll-btns fade d3">
+    <a href="contact.html" class="btn btn-amber">Get a Free Assessment</a>
+    <a href="contact.html" class="btn btn-outline-light">Talk to Us First</a>
+  </div>
+</section>
+<section class="sec sec-cream">
+  <p class="eyebrow fade">Frequently asked</p>
+  <h2 class="serif fade d1">Questions landlords <em>always ask us.</em></h2>
+  <div style="margin-top:32px;">
+    <div class="faq-item fade d1"><div class="faq-q">How is this different from a regular letting agent?</div><div class="faq-a">A letting agent still leaves you exposed to voids, arrears, and management headaches. We sign a commercial lease with you directly — making us your tenant, not an intermediary. Your income is contractually guaranteed regardless of what happens with individual occupants.</div></div>
+    <div class="faq-item fade d2"><div class="faq-q">What happens if a resident damages the property?</div><div class="faq-a">We are responsible for the property under the terms of our commercial lease. We carry out regular inspections and maintain the property to a high standard. Any damage is our liability, not yours.</div></div>
+    <div class="faq-item fade d3"><div class="faq-q">Is the rent below market rate?</div><div class="faq-a">In exchange for guaranteed payment, zero voids, and zero management, rent is typically agreed slightly below full open market rate. Most landlords find the peace of mind more than compensates for the difference.</div></div>
+    <div class="faq-item fade"><div class="faq-q">How does the Renters' Rights Act affect this arrangement?</div><div class="faq-a">It doesn't. The new legislation applies to assured tenancy agreements between landlords and individual tenants. A commercial lease with a CIC operates under a completely different legal framework — giving you the stability the new residential rules have removed.</div></div>
+    <div class="faq-item fade d1"><div class="faq-q">What types of properties do you look for?</div><div class="faq-a">We're interested in shared houses (HMOs), self-contained flats, and bedsits in reasonable condition within our operating area. Get in touch and we'll discuss whether your property is a good fit.</div></div>
+  </div>
+</section>
+<section class="cta-band"><h2 class="fade">Ready to talk about your property?</h2><p class="fade d1">A free, no-obligation assessment. We'll tell you honestly whether your property works for us.</p><a href="contact.html" class="btn btn-teal fade d2">Get a Free Assessment &rarr;</a></section>
+
+
+<footer class="footer">
+  <div class="footer-brand">
+    <a href="index.html" class="logo">
+      <svg width="32" height="32" viewBox="0 0 38 38" fill="none"><path d="M4 18L19 6L34 18" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M7 18V31L31 31V18" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M14 31V23.5Q14 19 19 19Q24 19 24 23.5V31" stroke="#C98A1A" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span><span class="logo-name">Langford Housing</span><span class="logo-sub">Community Interest Company</span></span>
+    </a>
+    <p class="footer-about">Safe, supported accommodation and genuine human care for adults rebuilding their lives across the UK. Not just a roof — a foundation.</p>
+    <div class="social">
+      <a href="#" aria-label="Facebook"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.4v7A10 10 0 0 0 22 12Z"/></svg></a>
+      <a href="#" aria-label="LinkedIn"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2zM8.3 18.3H5.7V9.8h2.6v8.5zM7 8.6a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm11.3 9.7h-2.6v-4.1c0-1 0-2.2-1.4-2.2s-1.6 1.1-1.6 2.2v4.1h-2.6V9.8h2.5v1.1h.1a2.7 2.7 0 0 1 2.5-1.4c2.6 0 3.1 1.7 3.1 4v4.8z"/></svg></a>
+      <a href="#" aria-label="Instagram"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+    </div>
+  </div>
+  <div class="footer-cols">
+    <div class="footer-col"><h4>Services</h4><a href="services.html">Safe Accommodation</a><a href="services.html">Support Workers</a><a href="services.html">Benefits Help</a><a href="services.html">24/7 Cover</a></div>
+    <div class="footer-col"><h4>For Agencies</h4><a href="referrals.html">Make a Referral</a><a href="referrals.html">How It Works</a><a href="contact.html">Contact Us</a></div>
+    <div class="footer-col"><h4>For Landlords</h4><a href="landlords.html">Guaranteed Rent</a><a href="landlords.html">Commercial Leases</a><a href="contact.html">Free Assessment</a></div>
+    <div class="footer-col"><h4>Company</h4><a href="about.html">About Us</a><a href="who-we-help.html">Who We Help</a><a href="contact.html">Contact</a></div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2026 Langford Housing CIC. Registered Community Interest Company. All rights reserved.</p>
+    <p>Designed &amp; built by <strong style="color:rgba(255,255,255,.45);">The Dream State</strong></p>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
